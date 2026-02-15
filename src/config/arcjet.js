@@ -2,8 +2,8 @@ import arcjet, { shield, detectBot } from '@arcjet/node';
 import { slidingWindow } from '@arcjet/node';
 import express from 'express';
 
-const app = express();
-const port = 3000;
+const _app = express();
+const _port = 3000;
 
 const aj = arcjet({
   key: process.env.ARCJET_KEY,
