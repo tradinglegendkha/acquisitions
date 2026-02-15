@@ -1,7 +1,7 @@
 node_modules
-.env
 combined.log
 error.log.neon_local/
+coverage/
+.env
 .env.development
 .env.production
-coverage/
